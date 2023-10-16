@@ -1,6 +1,6 @@
 <?php include("Header.php"); ?>
 <section class="main__container">
-    <form class="main__formulaire main__formulaireAddProduct" action="../functions/FonctionProduct.php" method="post" enctype="multipart/form-data">
+    <form class="main__formulaire main__formulaireAddProduct" action="../controllers/ControllerProduct.php" method="post" enctype="multipart/form-data">
         <div class="container__category">
             <label for="productCategory">Choisi la catégorie :</label>
             <select name="productCategory">
